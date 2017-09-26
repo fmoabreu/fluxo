@@ -1,0 +1,78 @@
+cbcflow
+========
+
+Description
+-----------
+
+cbcflow is a collection of solvers for the incompressible Navier Stokes equations,
+built on the FEniCS project. It is originally based on solvers from the NSbench project.
+
+Authors
+-------
+
+cbcflow is developed by
+
+  * Øyvind Evju
+  * Martin Sandve Alnæs
+  * Kent-Andre Mardal
+  * Kristian Valen-Sendstad
+
+Previous contributors to cbcflow are:  
+
+  * Joachim Berdal Haga 
+
+The original NSbench was written by
+
+  * Kristian Valen-Sendstad
+  * Anders Logg
+  * Kent-Andre Mardal
+  * Harish Narayanan
+  * Mikael Mortensen
+
+Licence
+-------
+
+cbcflow is licensed under the GNU LGPL, version 3 or (at your option) any
+later version.
+
+cbcflow is Copyright (2011-2014) by the authors and Simula Research Laboratory.
+
+Documentation
+-------------
+
+An incomplete documentation of cbcflow can be found at http://cbcflow.readthedocs.org.
+
+
+The solvers in the original NSbench project is documented in
+
+  K. Valen-Sendstad, A. Logg, Kent-A. Mardal, H. Narayanan, and M. Mortensen.
+  A Comparison of Some Common Finite Element Schemes for the Incompressible Navier-Stokes Equations,
+  In: Automated Solution of Differential Equations by the Finite Element Method,
+  ed. by Logg, Anders and Mardal, Kent-Andre and Wells, Garth N.. Springer,
+  vol. 84, chap. 21, pp. 395-418.
+  Lecture Notes in Computational Science and Engineering. (ISBN: 978-3-642-23098-1), 2012.
+
+Installation
+------------
+
+cbcflow requires an installation of FEniCS version 2016.1 (version 1.4-1.6 should work, but not tested), see www.fenicsproject.org.
+
+To install simply run
+
+  python setup.py install --prefix=/path/to/your/favourite/site-packages
+
+Contact
+-------
+
+The latest version of this software can be obtained from
+
+  http://www.bitbucket.org/simula_cbc/cbcflow/
+
+Please report bugs and other issues through the bitbucket issue tracker at:
+
+  http://www.bitbucket.org/simula_cbc/cbcflow/issues
+
+More about the Center for Biomedical Computing can be found at
+
+  http://cbc.simula.no
+
